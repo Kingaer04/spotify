@@ -1,0 +1,348 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ulist {
+    text-align: center;
+    color: rgb(202, 201, 201);
+}
+
+.nav-link {
+    color: rgb(202, 201, 201);
+}
+
+.nav-link:hover {
+    color: #1ed760;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(1000%);
+}
+
+nav {
+    background-color: black;
+    position: fixed; 
+}
+
+.navbar {
+    padding: 15px 80px 15px 100px;
+    --bs-navbar-hover-color: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(189, 187, 187);
+}
+
+.month {
+    background-color: rgb(29, 117, 222);
+    height: 60vh;
+    position: relative;
+    padding: 70px 0px 0px 100px;
+    margin-bottom: 50px;
+}
+
+#get {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#text {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+}
+
+#just {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#button {
+    display: flex;
+}
+
+button {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    margin-right: 30px;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 40px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#view {
+    background-color: transparent;
+    border: solid white;
+    padding: 9px 40px;
+}
+
+button:hover {
+    padding: 11px 40px;
+    border: solid black;
+    background-color: rgb(8, 8, 8);
+}
+
+#view:hover {
+    padding: 10px 40px;
+    background-color: rgb(27, 105, 201);
+}
+
+p {
+    font-size: 10px;
+    margin-top: 50px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#wg {
+    text-align: center;
+    font-weight: bold;
+    font-size: clamp(16px, 4vw, 38px);
+    color: black;
+    margin-bottom: 50px;
+}
+
+.dm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 50px;
+}
+
+#icons {
+    display: flex;
+    height: 70vh;
+    padding: 0px 150px;
+}
+
+.downm {
+    font-weight: 700;
+    color: black;
+    margin: 15px;
+}
+
+img {
+    height: 140px;
+    margin-bottom: 30px;
+}
+
+.he {
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+}
+
+.pre {
+    text-align: center;
+    padding: 20px;
+    height: 20vh;
+}
+
+.pickp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    padding: 0px 100px;
+}
+
+#clw {
+    background-color: rgb(245, 243, 243);
+}
+
+.getting {
+    height: 580px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    margin-bottom: 110px;
+}
+
+.monthf {
+    background-color: rgb(13, 114, 234);
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.prepaid {
+    border: solid rgb(13, 114, 234) 1px;
+    color: rgb(13, 114, 234);
+    padding: 10px 0px 10px 10px;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+hr {
+    border: none;
+    border-bottom:  2px solid black;
+    margin-bottom: 30px;
+}
+
+img {
+    height: 10px;
+    width: 20px;
+    margin-top: 5px;
+}
+
+.playany {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.msg {
+    padding-left: 10px;
+}
+
+.gst {
+    margin-top: 80px;
+    width: 220px;
+}
+
+.tlink {
+    color: black;
+}
+
+.Tac {
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.hrr {
+    margin-top: 60px;
+}
+
+.gste {
+    margin-top: 60px;
+    text-align: center;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.monthfr {
+    width: 110px;
+}
+
+.stg {
+    margin-top: 5px;
+}
+
+.st {
+    margin-top: 25px;
+}
+
+button:hover {
+    padding: 10px 65px;
+}
+
+.foota {
+    background-color: black;
+    height: 85VH;
+}
+
+.itemz {
+    padding: 100px;
+    display: flex;
+}
+
+#logosp {
+    margin-top: -20px;
+    margin-right: 50px;
+}
+
+#compa {
+    margin-top: 10px;
+    margin-right: 110px;
+}
+
+.comp {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #919496;
+}
+
+.about {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.15s;
+}
+
+.about:hover {
+    color: #1ed760;
+}
+
+#soclogo {
+    display: flex;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+#svg {
+    height: 150px;
+    width: 30px;
+    margin-left: 50px;
+    fill: white;
+    border: none;
+    border: gray 1px;
+    border-width: 50px;
+}
+
+.linkz {
+    margin-top: 50px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.linz {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.linz:hover {
+    color: #1ed760;
+}
+
+#lasz {
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+}
+
+#cot {
+    margin-top: -50px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    margin-left: 62px;
+    margin-bottom: 30px;
+}
+
+#cot:hover {
+    color: #1ed760;
+}
+
+#lz {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    margin-left: 15px;
+}
